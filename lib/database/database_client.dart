@@ -8,7 +8,7 @@ import 'package:sqflite/sqflite.dart';
 
 class DatabaseClient {
   Database _db;
-  Song song;
+  Song gaana;
   Future create() async {
     Directory path = await getApplicationDocumentsDirectory();
     String dbpath = join(path.path, "database.db");
