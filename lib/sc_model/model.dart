@@ -3,7 +3,7 @@ import 'package:scoped_model/scoped_model.dart';
 
 class SongModel extends Model {
   Song _song;
-  List<Song> albums, recents, songs;
+  List<Song> albums, abhi, songs;
   Song last;
   Song top;
   int mode = 2;
