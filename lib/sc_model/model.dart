@@ -21,6 +21,13 @@ class SongModel extends Model {
   void setMode(int mode) {
     this.mode = mode;
     notifyListeners();
+  } 
+    void setMode(int mode) {
+    this.mode = mode;
+    notifyListeners();
+  }  void setMode(int mode) {
+    this.mode = mode;
+    notifyListeners();
   }
 
   // void updateRecents(db)async{
