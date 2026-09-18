@@ -1,6 +1,7 @@
 name: musicplayer
 description: A new Flutter project.
-
+environment:
+  sdk: '^2flutt.12.0'
 dependencies:
   flutter:
     sdk: flutter
